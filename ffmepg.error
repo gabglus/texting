@@ -1,0 +1,173 @@
+pi@raspberrypi:~ $ ffmpeg -i  rtsp://192.168.1.4:554/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp?real_stream -an -f null -                 ffmpeg version 3.2.2-1~bpo8+1 Copyright (c) 2000-2016 the FFmpeg developers
+  built with gcc 4.9.2 (Debian 4.9.2-10)
+  configuration: --prefix=/usr --extra-version='1~bpo8+1' --toolchain=hardened --libdir=/usr/lib/arm-linux-gnueabihf --incdir=/usr/include/arm-linux-gnueabihf --enable-gpl --disable-stripping --enable-avresample --enable-avisynth --enable-gnutls --enable-ladspa --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --disable-libebur128 --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libmodplug --enable-libmp3lame --enable-libopenjpeg --enable-libopus --enable-libpulse --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx265 --enable-libxvid --enable-libzmq --enable-libzvbi --enable-omx --enable-openal --enable-opengl --enable-sdl2 --enable-libdc1394 --enable-libiec61883 --enable-libopencv --enable-frei0r --enable-libx264 --enable-chromaprint --enable-shared
+  libavutil      55. 34.100 / 55. 34.100
+  libavcodec     57. 64.101 / 57. 64.101
+  libavformat    57. 56.100 / 57. 56.100
+  libavdevice    57.  1.100 / 57.  1.100
+  libavfilter     6. 65.100 /  6. 65.100
+  libavresample   3.  1.  0 /  3.  1.  0
+  libswscale      4.  2.100 /  4.  2.100
+  libswresample   2.  3.100 /  2.  3.100
+  libpostproc    54.  1.100 / 54.  1.100
+[rtsp @ 0x55da6280] max delay reached. need to consume packet
+[rtsp @ 0x55da6280] RTP: missed 79 packets
+[h264 @ 0x55da91a0] error while decoding MB 73 67, bytestream -5
+[h264 @ 0x55da91a0] concealing 96 DC, 96 AC, 96 MV errors in P frame
+[h264 @ 0x55da91a0] Increasing reorder buffer to 1
+[rtsp @ 0x55da6280] max delay reached. need to consume packet
+[rtsp @ 0x55da6280] RTP: missed 258 packets
+[rtsp @ 0x55da6280] max delay reached. need to consume packet
+[rtsp @ 0x55da6280] RTP: missed 26 packets
+Input #0, rtsp, from 'rtsp://192.168.1.4:554/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp?real_stream':
+  Metadata:
+    title           : RTSP Session
+  Duration: N/A, start: 0.360000, bitrate: N/A
+    Stream #0:0: Video: h264 (Main), yuv420p(progressive), 1920x1080, 25 fps, 25 tbr, 90k tbn, 50 tbc
+Output #0, null, to 'pipe:':
+  Metadata:
+    title           : RTSP Session
+    encoder         : Lavf57.56.100
+    Stream #0:0: Video: wrapped_avframe, yuv420p, 1920x1080, q=2-31, 200 kb/s, 25 fps, 25 tbn, 25 tbc
+    Metadata:
+      encoder         : Lavc57.64.101 wrapped_avframe
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))
+Press [q] to stop, [?] for help
+[h264 @ 0x56365ed0] error while decoding MB 73 67, bytestream -5
+[h264 @ 0x56365ed0] concealing 96 DC, 96 AC, 96 MV errors in P frame
+[h264 @ 0x55e8d340] error while decoding MB 85 2, bytestream -7
+[h264 @ 0x55e8d340] concealing 7884 DC, 7884 AC, 7884 MV errors in P frame
+[rtsp @ 0x55da6280] max delay reached. need to consume packetN/A speed=0.145x
+[rtsp @ 0x55da6280] RTP: missed 995 packets
+[h264 @ 0x55de1970] error while decoding MB 98 2, bytestream -5A speed=0.796x
+[h264 @ 0x55de1970] concealing 7871 DC, 7871 AC, 7871 MV errors in P frame
+[h264 @ 0x56365ed0] Increasing reorder buffer to 14
+[rtsp @ 0x55da6280] max delay reached. need to consume packetN/A speed=0.568x
+[rtsp @ 0x55da6280] RTP: missed 556 packets
+[h264 @ 0x55f082d0] error while decoding MB 82 5, bytestream -5
+[h264 @ 0x55f082d0] concealing 7527 DC, 7527 AC, 7527 MV errors in P frame
+[rtsp @ 0x55da6280] max delay reached. need to consume packetN/A speed=0.403x
+[rtsp @ 0x55da6280] RTP: missed 485 packets
+[h264 @ 0x55df9000] error while decoding MB 0 6, bytestream -11
+[h264 @ 0x55df9000] concealing 7489 DC, 7489 AC, 7489 MV errors in P frame
+[rtsp @ 0x55da6280] max delay reached. need to consume packetN/A speed=0.31x
+[rtsp @ 0x55da6280] RTP: missed 583 packets
+[h264 @ 0x56365ed0] error while decoding MB 89 2, bytestream -5
+[h264 @ 0x56365ed0] concealing 7880 DC, 7880 AC, 7880 MV errors in P frame
+[rtsp @ 0x55da6280] max delay reached. need to consume packetN/A speed=0.712x
+[rtsp @ 0x55da6280] RTP: missed 461 packets
+[h264 @ 0x55e8d340] error while decoding MB 89 2, bytestream -9
+[h264 @ 0x55e8d340] concealing 7880 DC, 7880 AC, 7880 MV errors in P frame
+[rtsp @ 0x55da6280] max delay reached. need to consume packetN/A speed=0.957x
+[rtsp @ 0x55da6280] RTP: missed 523 packets
+[h264 @ 0x55de1970] cabac decode of qscale diff failed at 5 6
+[h264 @ 0x55de1970] error while decoding MB 5 6, bytestream -5
+[h264 @ 0x55de1970] concealing 7484 DC, 7484 AC, 7484 MV errors in P frame
+[rtsp @ 0x55da6280] max delay reached. need to consume packetN/A speed=0.967x
+[rtsp @ 0x55da6280] RTP: missed 431 packets
+[h264 @ 0x55f082d0] error while decoding MB 84 5, bytestream -7
+[h264 @ 0x55f082d0] concealing 7525 DC, 7525 AC, 7525 MV errors in P frame
+[rtsp @ 0x55da6280] max delay reached. need to consume packetN/A speed=0.97x
+[rtsp @ 0x55da6280] RTP: missed 549 packets
+[h264 @ 0x55df9000] error while decoding MB 86 5, bytestream -7
+[h264 @ 0x55df9000] concealing 7523 DC, 7523 AC, 7523 MV errors in P frame
+[rtsp @ 0x55da6280] max delay reached. need to consume packetN/A speed=0.954x
+[rtsp @ 0x55da6280] RTP: missed 529 packets
+[h264 @ 0x56365ed0] error while decoding MB 96 2, bytestream -7
+[h264 @ 0x56365ed0] concealing 7873 DC, 7873 AC, 7873 MV errors in P frame
+[rtsp @ 0x55da6280] max delay reached. need to consume packetN/A speed=0.962x
+[rtsp @ 0x55da6280] RTP: missed 504 packets
+[h264 @ 0x55e8d340] error while decoding MB 90 2, bytestream -5
+[h264 @ 0x55e8d340] concealing 7879 DC, 7879 AC, 7879 MV errors in P frame
+[rtsp @ 0x55da6280] max delay reached. need to consume packetN/A speed=0.975x
+[rtsp @ 0x55da6280] RTP: missed 488 packets
+[h264 @ 0x55de1970] error while decoding MB 92 2, bytestream -5
+[h264 @ 0x55de1970] concealing 7877 DC, 7877 AC, 7877 MV errors in P frame
+[rtsp @ 0x55da6280] max delay reached. need to consume packetN/A speed=0.967x
+[rtsp @ 0x55da6280] RTP: missed 576 packets
+[h264 @ 0x55f082d0] error while decoding MB 90 2, bytestream -7
+[h264 @ 0x55f082d0] concealing 7879 DC, 7879 AC, 7879 MV errors in P frame
+[rtsp @ 0x55da6280] max delay reached. need to consume packetN/A speed=0.964x
+[rtsp @ 0x55da6280] RTP: missed 532 packets
+[h264 @ 0x55df9000] error while decoding MB 96 2, bytestream -5
+[h264 @ 0x55df9000] concealing 7873 DC, 7873 AC, 7873 MV errors in P frame
+[rtsp @ 0x55da6280] max delay reached. need to consume packetN/A speed=0.969x
+[rtsp @ 0x55da6280] RTP: missed 543 packets
+[h264 @ 0x56365ed0] error while decoding MB 75 8, bytestream -5
+[h264 @ 0x56365ed0] concealing 7174 DC, 7174 AC, 7174 MV errors in P frame
+[rtsp @ 0x55da6280] max delay reached. need to consume packetN/A speed=0.976x
+[rtsp @ 0x55da6280] RTP: missed 484 packets
+[h264 @ 0x55e8d340] error while decoding MB 101 2, bytestream -5
+[h264 @ 0x55e8d340] concealing 7868 DC, 7868 AC, 7868 MV errors in P frame
+[rtsp @ 0x55da6280] max delay reached. need to consume packetN/A speed=0.97x
+[rtsp @ 0x55da6280] RTP: missed 652 packets
+[h264 @ 0x55de1970] error while decoding MB 2 6, bytestream -5
+[h264 @ 0x55de1970] concealing 7487 DC, 7487 AC, 7487 MV errors in P frame
+[rtsp @ 0x55da6280] max delay reached. need to consume packetN/A speed=0.974x
+[rtsp @ 0x55da6280] RTP: missed 437 packets
+[h264 @ 0x55f082d0] error while decoding MB 103 5, bytestream -7
+[h264 @ 0x55f082d0] concealing 7506 DC, 7506 AC, 7506 MV errors in P frame
+[rtsp @ 0x55da6280] max delay reached. need to consume packetN/A speed=0.982x
+[rtsp @ 0x55da6280] RTP: missed 585 packets
+[rtsp @ 0x55da6280] max delay reached. need to consume packet
+[rtsp @ 0x55da6280] RTP: missed 1 packets
+[h264 @ 0x55df9000] concealing 7772 DC, 7772 AC, 7772 MV errors in P frame
+[rtsp @ 0x55da6280] max delay reached. need to consume packetN/A speed=0.978x
+[rtsp @ 0x55da6280] RTP: missed 493 packets
+[h264 @ 0x56365ed0] error while decoding MB 84 2, bytestream -5
+[h264 @ 0x56365ed0] concealing 7885 DC, 7885 AC, 7885 MV errors in P frame
+[rtsp @ 0x55da6280] max delay reached. need to consume packetN/A speed=0.985x
+[rtsp @ 0x55da6280] RTP: missed 531 packets
+[h264 @ 0x55e8d340] error while decoding MB 99 2, bytestream -7
+[h264 @ 0x55e8d340] concealing 7870 DC, 7870 AC, 7870 MV errors in P frame
+[rtsp @ 0x55da6280] max delay reached. need to consume packetN/A speed=0.985x
+[rtsp @ 0x55da6280] RTP: missed 483 packets
+[h264 @ 0x55de1970] error while decoding MB 83 8, bytestream -7
+[h264 @ 0x55de1970] concealing 7166 DC, 7166 AC, 7166 MV errors in P frame
+[rtsp @ 0x55da6280] max delay reached. need to consume packetN/A speed=0.983x
+[rtsp @ 0x55da6280] RTP: missed 556 packets
+[h264 @ 0x55f082d0] error while decoding MB 95 2, bytestream -5
+[h264 @ 0x55f082d0] concealing 7874 DC, 7874 AC, 7874 MV errors in P frame
+[rtsp @ 0x55da6280] max delay reached. need to consume packetN/A speed=0.984x
+[rtsp @ 0x55da6280] RTP: missed 468 packets
+[h264 @ 0x55df9000] concealing 7820 DC, 7820 AC, 7820 MV errors in P frame
+[rtsp @ 0x55da6280] max delay reached. need to consume packetN/A speed=0.983x
+[rtsp @ 0x55da6280] RTP: missed 611 packets
+[h264 @ 0x56365ed0] error while decoding MB 92 2, bytestream -7
+[h264 @ 0x56365ed0] concealing 7877 DC, 7877 AC, 7877 MV errors in P frame
+[rtsp @ 0x55da6280] max delay reached. need to consume packetN/A speed=0.978x
+[rtsp @ 0x55da6280] RTP: missed 597 packets
+[h264 @ 0x55e8d340] error while decoding MB 95 2, bytestream -5
+[h264 @ 0x55e8d340] concealing 7874 DC, 7874 AC, 7874 MV errors in P frame
+[rtsp @ 0x55da6280] max delay reached. need to consume packetN/A speed=0.977x
+[rtsp @ 0x55da6280] RTP: missed 636 packets
+[h264 @ 0x55de1970] error while decoding MB 87 2, bytestream -9
+[h264 @ 0x55de1970] concealing 7882 DC, 7882 AC, 7882 MV errors in P frame
+[rtsp @ 0x55da6280] max delay reached. need to consume packetN/A speed=0.983x
+[rtsp @ 0x55da6280] RTP: missed 467 packets
+[h264 @ 0x55f082d0] error while decoding MB 90 2, bytestream -5
+[h264 @ 0x55f082d0] concealing 7879 DC, 7879 AC, 7879 MV errors in P frame
+[rtsp @ 0x55da6280] max delay reached. need to consume packetN/A speed=0.988x
+[rtsp @ 0x55da6280] RTP: missed 591 packets
+[h264 @ 0x55df9000] error while decoding MB 88 2, bytestream -7
+[h264 @ 0x55df9000] concealing 7881 DC, 7881 AC, 7881 MV errors in P frame
+[rtsp @ 0x55da6280] max delay reached. need to consume packetN/A speed=0.986x
+[rtsp @ 0x55da6280] RTP: missed 520 packets
+[h264 @ 0x56365ed0] error while decoding MB 88 2, bytestream -9
+[h264 @ 0x56365ed0] concealing 7881 DC, 7881 AC, 7881 MV errors in P frame
+[rtsp @ 0x55da6280] max delay reached. need to consume packetN/A speed=0.99x
+[rtsp @ 0x55da6280] RTP: missed 488 packets
+[h264 @ 0x55e8d340] error while decoding MB 85 2, bytestream -7
+[h264 @ 0x55e8d340] concealing 7884 DC, 7884 AC, 7884 MV errors in P frame
+[rtsp @ 0x55da6280] max delay reached. need to consume packetN/A speed=0.989x
+[rtsp @ 0x55da6280] RTP: missed 572 packets
+[h264 @ 0x55de1970] error while decoding MB 86 2, bytestream -5
+[h264 @ 0x55de1970] concealing 7883 DC, 7883 AC, 7883 MV errors in P frame
+[rtsp @ 0x55da6280] max delay reached. need to consume packetN/A speed=0.986x
+[rtsp @ 0x55da6280] RTP: missed 541 packets
+[rtsp @ 0x55da6280] max delay reached. need to consume packet
+[rtsp @ 0x55da6280] RTP: missed 26 packets
+frame=  234 fps=7.0 q=-0.0 Lsize=N/A time=00:00:34.56 bitrate=N/A speed=1.03x
+video:88kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+Exiting normally, received signal 2.
